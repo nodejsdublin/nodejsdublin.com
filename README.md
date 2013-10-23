@@ -1,5 +1,8 @@
 nodejsdublin.com
 ================
+Website for the Node.js Dublin meetup group.   
+[@nodejsdublin](https://twitter.com/nodejsdublin)
+
 Powered by [calipso](http://calip.so/).
 
 ### Adding info for the next event
