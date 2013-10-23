@@ -1,0 +1,102 @@
+{
+  "version": "0.3.0",
+  "installed": true,
+  "database": {
+    "uri": "mongodb://localhost/nodejsdublin"
+  },
+  "server": {
+    "name": "Node.js Dublin",
+    "url": "http://localhost:3001",
+    "modulePath": "./modules",
+    "themePath": "./themes",
+    "cluster": {
+      "workers": "",
+      "restartWorkers": true,
+      "maximumRestarts": "1"
+    },
+    "events": {
+      "maxListeners": "500"
+    }
+  },
+  "calipso": {
+    "repo": {
+      "url": "http://calip.so/repo/api",
+      "defaultVersion": "master"
+    }
+  },
+  "performance": {
+    "cache": {
+      "enabled": false,
+      "ttl": "600"
+    },
+    "watchFiles": true
+  },
+  "session": {
+    "secret": "calipso"
+  },
+  "theme": {
+    "default": "cleanslate",
+    "front": "nodejsdublin",
+    "admin": "cleanslate"
+  },
+  "i18n": {
+    "language": "en",
+    "additive": true
+  },
+  "logging": {
+    "console": {
+      "enabled": true,
+      "level": "info",
+      "timestamp": true,
+      "colorize": true
+    },
+    "file": {
+      "enabled": false,
+      "level": "info",
+      "filepath": "logs/calipso.log",
+      "timestamp": true
+    }
+  },
+  "libraries": {
+    "stylus": {
+      "enable": false,
+      "warn": true,
+      "compress": false
+    },
+    "formidable": {
+      "keepExtensions": true
+    }
+  },
+  "modules": {
+    "admin": {
+      "enabled": true
+    },
+    "content": {
+      "enabled": true
+    },
+    "contentTypes": {
+      "enabled": true
+    },
+    "contentVersions": {
+      "enabled": false
+    },
+    "permissions": {
+      "enabled": true
+    },
+    "scheduler": {
+      "enabled": false
+    },
+    "tagcloud": {
+      "enabled": false
+    },
+    "taxonomy": {
+      "enabled": true
+    },
+    "user": {
+      "enabled": true
+    },
+    "google-analytics": {
+      "enabled": false
+    }
+  }
+}

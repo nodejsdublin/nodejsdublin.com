@@ -1,0 +1,47 @@
+{
+  "name": "calipso",
+  "description": "A NodeJS CMS",
+  "version": "0.3.3",
+  "homepage": "http://calip.so",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cliftonc/calipso.git"
+  },
+  "author": "Clifton Cunningham <clifton.cunningham@gmail.com> (cliftoncunningham.co.uk)",
+  "keywords"      : ["cms", "content management", "server", "mongodb"],
+  "engines": {
+    "node": "0.6.x"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "connect": "1.8.x",
+    "ejs": "0.6.x",
+    "jade": "0.20.x",
+    "stylus": "0.23.x",
+    "underscore":"1.3.x",
+    "mongoose": "2.5.x",
+    "winston": "0.5.x",
+    "mongodb": "0.9.x",
+    "qs": "0.4.x",
+    "request":"2.9.x",
+    "pool":"0.4.x",
+    "mime":"1.2.x",
+    "step": "0.0.x",
+    "optimist":"0.3.x",
+    "colors":"0.6.x",
+    "bcrypt": "0.5.x",
+    "semver":"1.0.x",
+    "zipfile":"0.3.x",
+    "rimraf":"2.0.x",
+    "nconf":"0.5.x",
+    "async": "0.1.x"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test" : "NODE_ENV=mocha mocha -t 10000 -s 200"
+  },
+  "bin": { "calipso": "./bin/calipso" }
+}
